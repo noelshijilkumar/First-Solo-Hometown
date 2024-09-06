@@ -1,0 +1,81 @@
+/* / old css / */
+.activities {
+
+    width:100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#F1FAEE;
+    color: #1D3557;
+    ;
+}
+
+.img-container {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 50px;
+    
+    
+   
+
+}
+
+.img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.dimg {
+    text-align: center;
+}
+
+/* //new */
+
+.activities {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1FAEE;
+    color: #1D3557;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.dimg {
+    text-align: center;
+}
+
+.dimg h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.dimg p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
